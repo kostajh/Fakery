@@ -1,0 +1,47 @@
+{
+	"name": "Fakery",
+	"version": "0.1.0",
+	"author": [
+		"Kosta Harlan"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Fakery",
+	"descriptionmsg": "fakery-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\Fakery\\SpecialFakery": "src/SpecialFakery.php"
+	},
+	"ConfigRegistry": {
+	},
+	"config": {
+	},
+	"ExtensionMessagesFiles": {
+		"FakeryAliases": "Fakery.i18n.alias.php"
+	},
+	"MessagesDirs": {
+		"Fakery": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.Fakery.foo": {
+			"scripts": [
+			],
+			"styles": [
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "Fakery/resources"
+	},
+	"SpecialPages": {
+		"Fakery": "MediaWiki\\Extension\\Fakery\\SpecialFakery"
+	},
+	"manifest_version": 2
+}
