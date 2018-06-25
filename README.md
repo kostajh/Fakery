@@ -1,6 +1,6 @@
 # Fakery
 
-Fakery is an extension for populating a MediaWiki database with fake content, courtesy of [Fakery](https://github.com/fzaninotto/faker).
+Fakery is an extension for populating a MediaWiki database with fake content, courtesy of [faker](https://github.com/fzaninotto/faker).
 
 For now, nothing is generic or abstracted about this nor is it very sophisticated; this extension has a script to assist in debugging [T197168](https://phabricator.wikimedia.org/T197168).
 
