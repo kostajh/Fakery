@@ -10,4 +10,4 @@ Copy this extension into `extensions` and run `composer install`.
 
 ## Usage
 
-`mwscript extensions/Fakery/maintenace/GeneratePages.php --count=5000 --user=Admin` to generate 5,000 pages with edits, and add them to the `Admin` user's watchlist.
+`mwscript extensions/Fakery/maintenance/GeneratePages.php --count=5000 --user=Admin` to generate 5,000 pages with edits, and add them to the `Admin` user's watchlist.
